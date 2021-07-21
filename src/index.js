@@ -42,6 +42,8 @@ function newToDo(){
     else if (p.className === 'yellow') 
     {tasks.insertBefore(p, mostRecentRed)}
     else {tasks.appendChild(p)}
+
+    //This styles the background to the priority color that was selected
     p.style.backgroundColor = `${priority.value}`;
     
 
